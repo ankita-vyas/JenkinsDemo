@@ -10,8 +10,6 @@ public class DemoController {
 	
 	@RequestMapping(value = "/index", method = RequestMethod.GET)
 	public String getIndexPage() {
-		
-		
 		return "Hi";
 	}
 }
